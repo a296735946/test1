@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SDcard.MainPage" Title="SDcard">
+  <ScrollView>
+  <StackLayout Orientation="Vertical">
+    <Label Text="檔案作業"
+             VerticalOptions="Center"
+             HorizontalOptions="Center" />
+
+    <Button x:Name="btnPage1" Text="查詢A資料夾"/>
+    <Button x:Name="btnPage2" Text="查詢B資料夾"/>
+    <Button x:Name="btnPage3" Text="新增檔案於A資料夾"/>
+    <Button x:Name="btnPage4" Text="新增檔案於B資料夾"/>
+    <Button x:Name="btnPage5" Text="將A檔案全部搬至B"/>
+    <Button x:Name="btnPage6" Text="將B檔案全部搬至A"/>
+    <Button x:Name="btnPage7" Text="刪除A資料夾內檔案"/>
+    <Button x:Name="btnPage8" Text="刪除B資料夾內檔案"/>
+  </StackLayout>
+    </ScrollView>
+</ContentPage>
