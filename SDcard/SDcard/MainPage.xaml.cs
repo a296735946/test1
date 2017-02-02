@@ -22,6 +22,7 @@ namespace SDcard
             btnPage6.Clicked += BtnPage3_Clicked;
             btnPage7.Clicked += BtnPage4_Clicked;
             btnPage8.Clicked += BtnPage4_Clicked;
+
         }
 
         private void BtnPage4_Clicked(object sender, EventArgs e)

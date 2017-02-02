@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Java.IO;
 
+
 namespace SDcard.Droid
 {
     [Activity(Label = "SDcard", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -19,9 +20,6 @@ namespace SDcard.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-
-            
-
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
